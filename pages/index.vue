@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-pink-100 grid grid-cols-6 gap-4 -top-32">
-    <div class="bg-white col-start-2 col-span-4 p-32">
+  <div class="grid grid-cols-6 gap-4 -top-32">
+    <div class="bg-white col-start-2 col-span-4 p-32 my-32 rounded-lg border border-solid border-red-100">
         <highlightable-menu
           @share="onShare"
           @highlight="onHighlight"
@@ -98,9 +98,9 @@ export default {
 </script>
 <style>
   ::selection {
-    background: #ffb7b7; /* WebKit/Blink Browsers */
+    background: #E2D4FF; /* WebKit/Blink Browsers */
   }
   ::-moz-selection {
-    background: #ffb7b7; /* Gecko Browsers */
+    background: #E2D4FF; /* Gecko Browsers */
   }
 </style>
